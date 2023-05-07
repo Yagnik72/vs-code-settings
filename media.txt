@@ -1,0 +1,27 @@
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+  .cat_grid_item__title.h3 {
+    font-size: 16px;
+    font-weight: 700;
+min-width:250px;
+}
+}
+
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1024px) {
+  .bike-cat .col-6 {
+margin-top: 40px;
+}
+  
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px){
+
+}

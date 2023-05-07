@@ -1,0 +1,26 @@
+ctrl + shift + p > perfrence : config user snippets > php.json
+{
+	"var_dump": {
+		"prefix": "vd",
+		"body": [
+			"echo \"<pre>\";\nvar_dump($1);\necho \"</pre>\";\nexit;",
+			"$2"
+		],
+		"description": "var_dump"
+	},
+	"print_r": {
+		"prefix": "pr",
+		"body": [
+			"echo \"<pre>\";\nprint_r($1);\necho \"</pre>\";\nexit;",
+			"$2"
+		],
+		"description": "print_r"
+	},
+	"$_GET['yagnik'] =": {
+		"prefix": "ya",
+		"body": [
+			"if($1_GET['yagnik'] == 'yagnik'){ \n $2 \n}",
+		],
+		"description": "$_GET['yagnik'] ="
+	}
+}
