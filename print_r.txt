@@ -24,3 +24,5 @@ ctrl + shift + p > perfrence : config user snippets > php.json
 		"description": "$_GET['yagnik'] ="
 	}
 }
+
+https://superuser.com/questions/221783/installing-notepad-via-wine-on-ubuntu-linux
